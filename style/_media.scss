@@ -1,0 +1,23 @@
+@media screen and (max-width: 400px){
+    .main-header{
+        .section-main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+
+    .portfolios{
+        .titulo-portfolio{
+            font-size: 2rem;
+            margin-bottom: -2rem;
+        }
+        .portfolio-item{
+            width: 90%;
+        }
+    }
+}
