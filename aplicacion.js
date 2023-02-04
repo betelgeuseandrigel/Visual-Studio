@@ -1,5 +1,7 @@
-const hover = document.querySelector(".hover-items");
+const hover = document.querySelector(".portfolios");
 
-hover.addEventListener("click", e => {
-    e.preventDefault();
-})
+hover.addEventListener("click", (e) => {
+   e.preventDefault();
+});
+
+
